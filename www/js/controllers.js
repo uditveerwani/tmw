@@ -1,8 +1,20 @@
-angular.module('starter.controllers', [])
+angular.module('tmw.controllers', [])
 
+
+.controller('tmwCtrl', function($scope) {
+
+	$scope.menuItems = [
+		{title: 'Events'}, {title: 'Notifications'}, {title: 'Friends'}, 
+		{title: 'Why?'}, {title: 'Settings'}
+	];
+
+	$scope.toggleMenu = function() {
+		$scope.sideMenuController.toggleLeft();
+	};
+})
 
 // A simple controller that fetches a list of data from a service
-.controller('PetIndexCtrl', function($scope, PetService) {
+.controller('EventIndexCtrl', function($scope, PetService) {
   // "Pets" is a service returning mock data (services.js)
   $scope.pets = PetService.all();
 })
