@@ -1,14 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ionicframework.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>StarterApp</name>
-    <description>
-        A sample Ionic Framework app using Cordova and AngularJS
-    </description>
-    <author email="support@drifty.com" href="http://ionicframework.com/">
-        Ionic Framework Team
+<widget id="com.eskaytech.tellmewhen" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Tell Me When</name>
+    <description></description>
+    <author email="support@eskaytech.com" href="http://eskaytech.com/">
+        Eskay Tech
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <preference name="phonegap-version" value="3.1.0" />
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
