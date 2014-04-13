@@ -6,3 +6,64 @@
   width: 96px;
   height: 96px;
 }
+
+body, .pane, .view {
+	background: url('../img/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.card{
+	background-color: transparent;
+	box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+	padding: 0;
+}
+
+.button-transparent{
+	font-weight: 700;
+	margin: 0 !important;
+	background-color: rgba(255, 255, 255, 0.4);
+	border: 0;
+	color: #fff;
+	position: relative;
+	top: 0;
+	transition: all 0.1s;
+}
+
+.button-transparent.active{
+	background-color: rgba(255, 255, 255, 0.6);
+	color: #fff;
+}
+
+.button-transparent:hover{
+	color: #fff;
+}
+
+.item{
+	border-color: rgba(0, 0, 0, 0);
+	background-color: rgba(255, 255, 255, 0.1);
+	color: rgb(255, 255, 255);
+}
+
+.item p{
+	color: #fff;
+}
+
+.item h1, .item h2, .item h3, .item h4{
+	color: #fff;
+}
+
+.tabs{
+	background-color: rgba( 255, 255, 255, 0.4 );
+	border: 0;
+}
+
+.bar-transparent{
+	background-color: rgba(255, 255, 255, 0.1);
+	border: 0;
+	color: #fff;
+}
+
+.bar-transparent button, .bar-transparent h1{
+	color: #fff;
+}

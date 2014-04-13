@@ -1,7 +1,7 @@
 angular.module('tmw.controllers', [])
 
 
-.controller('tmwCtrl', function($scope) {
+.controller('tmwCtrl', function($scope, $ionicSideMenuDelegate) {
 
 	$scope.menuItems = [
 		{title: 'Events'}, {title: 'Notifications'}, {title: 'Friends'}, 
@@ -9,7 +9,7 @@ angular.module('tmw.controllers', [])
 	];
 
 	$scope.toggleMenu = function() {
-		$scope.sideMenuController.toggleLeft();
+		$ionicSideMenuDelegate.toggleLeft();
 	};
 })
 
